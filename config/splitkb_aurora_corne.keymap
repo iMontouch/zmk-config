@@ -21,8 +21,8 @@
 
             bindings = <
 &kp EXCLAMATION  &kp Q  &kp W  &kp F       &kp P      &kp B      &kp J    &kp L          &kp U       &kp Y    &kp DOUBLE_QUOTES  &kp QUESTION
-&kp LCTRL        &kp A  &kp R  &kp S       &kp T      &kp G      &kp M    &kp N          &kp E       &kp I    &kp O              &kp SQT
-&kp LSHFT        &kp Z  &kp X  &kp C       &kp D      &kp V      &kp K    &kp H          &kp COMMA   &kp DOT  &kp FSLH           &kp ESC
+&kp A            &kp A  &kp R  &kp S       &kp T      &kp G      &kp M    &kp N          &kp E       &kp I    &kp O              &kp O
+&kp S            &kp Z  &kp X  &kp C       &kp D      &kp V      &kp K    &kp H          &kp COMMA   &kp DOT  &kp FSLH           &kp U
                                &kp ESCAPE  &kp SPACE  &kp TAB    &kp RET  &kp BACKSPACE  &kp DELETE
             >;
         };
