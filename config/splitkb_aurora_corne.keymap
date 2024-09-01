@@ -165,10 +165,10 @@
 
         Symbols {
             bindings = <
-&none         &kp DE_LEFT_BRACE  &kp DE_AMPERSAND    &kp DE_STAR              &kp DE_QUESTION  &kp DE_RIGHT_BRACE    &none  &none      &none      &none     &none     &none
-&kp BSLH      &kp DE_COLON       &kp DE_DOLLAR       &kp DE_PERCENT           &kp DE_CARET     &kp DE_PLUS           &none  &kp RSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&kp DE_GRAVE  &kp TAB            &kp DE_EXCLAMATION  &kp DE_AT_SIGN           &kp DE_HASH      &kp DE_PIPE           &none  &none      &none      &kp RALT  &none     &none
-                                                     &kp DE_LEFT_PARENTHESIS  &kp RPAR         &kp DE_MINUS          &none  &none      &none
+&none         &kp DE_LEFT_BRACE  &kp DE_AMPERSAND    &kp DE_STAR              &kp DE_QUESTION           &kp DE_RIGHT_BRACE    &none  &none      &none      &none     &none     &none
+&kp BSLH      &kp DE_COLON       &kp DE_DOLLAR       &kp DE_PERCENT           &kp DE_CARET              &kp DE_PLUS           &none  &kp RSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
+&kp DE_GRAVE  &kp TAB            &kp DE_EXCLAMATION  &kp DE_AT_SIGN           &kp DE_HASH               &kp DE_PIPE           &none  &none      &none      &kp RALT  &none     &none
+                                                     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_MINUS          &none  &none      &none
             >;
         };
 
