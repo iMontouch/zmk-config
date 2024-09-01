@@ -20,6 +20,7 @@
             flavor = "balanced";
             tapping-term-ms = <200>;
         };
+
         hml: hml {
             compatible = "zmk,behavior-hold-tap";
             label = "HML";
@@ -101,6 +102,7 @@
             key-positions = <19 20 21>;
         };
     };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -112,10 +114,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp DE_EXCLAMATION  &kp Q            &kp W            &kp F         &kp P             &kp B        &kp J        &kp L             &kp U         &kp DE_Y              &kp DE_DOUBLE_QUOTES  &kp DE_QUESTION
-&kp DE_A_UMLAUT     &hml LEFT_META A  &hml LEFT_ALT R   &hml LCTRL S   &hml LEFT_SHIFT T  &kp G        &kp M        &hmr LEFT_SHIFT N  &hmr LCTRL E   &hmr LEFT_ALT I        &hmr LEFT_META O       &kp DE_O_UMLAUT
-&kp DE_ESZETT       &kp DE_Z         &hml RIGHT_ALT X  &kp C         &kp D             &kp V        &kp K        &kp H             &kp DE_COMMA  &hmr RIGHT_ALT DE_DQT  &kp DE_SLASH          &kp DE_U_UMLAUT
-                                                      &lt 3 ESCAPE  &lt 1 SPACE       &lt 2 TAB    &lt 5 ENTER  &lt 4 BACKSPACE   &lt 6 DELETE
+&kp DE_EXCLAMATION  &kp Q             &kp W             &kp F         &kp P              &kp B        &kp J        &kp L              &kp U         &kp DE_Y               &kp DE_DOUBLE_QUOTES  &kp DE_QUESTION
+&kp DE_A_UMLAUT     &hml LEFT_META A  &hml LEFT_ALT R   &hml LCTRL S  &hml LEFT_SHIFT T  &kp G        &kp M        &hmr LEFT_SHIFT N  &hmr LCTRL E  &hmr LEFT_ALT I        &hmr LEFT_META O      &kp DE_O_UMLAUT
+&kp DE_ESZETT       &kp DE_Z          &hml RIGHT_ALT X  &kp C         &kp D              &kp V        &kp K        &kp H              &kp DE_COMMA  &hmr RIGHT_ALT DE_DOT  &kp DE_SLASH          &kp DE_U_UMLAUT
+                                                        &lt 3 ESCAPE  &lt 1 SPACE        &lt 2 TAB    &lt 5 ENTER  &lt 4 BACKSPACE    &lt 6 DELETE
             >;
         };
 
