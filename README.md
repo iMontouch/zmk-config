@@ -1,6 +1,6 @@
 # Welcome to My ZMK Corne Layout
 
-Hey there! This is the ZMK configuration for my daily driver Corne keyboard layout. It's a compact 42-key split keyboard (21 keys per side, 6x3 for fingers and 3 for thumb) that I've customized to fit my needs.
+Hey there! This is the ZMK configuration for my daily driver Corne keyboard layout. It's a compact 42-key split keyboard (21 keys per side, 6x3 for fingers and 3 for thumb) that I've customized to fit my needs. This is a German (DE) layout, featuring umlauts and specific keys like DE_Y instead of the original.
 
 ## Features
 
@@ -8,6 +8,7 @@ Hey there! This is the ZMK configuration for my daily driver Corne keyboard layo
 - Customized Colemak layout for comfy typing and smooth finger movements
 - Uses layers and home row mods for easy access to all functions
 - Inspired by the awesome [Miryoku layout](https://github.com/manna-harbour/miryoku)
+- German-specific keys and characters integrated into the layout
 
 ## Limitations
 
