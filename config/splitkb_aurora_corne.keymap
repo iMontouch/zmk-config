@@ -101,7 +101,6 @@
             key-positions = <19 20 21>;
         };
     };
->>>>>>> 8d3f8be (add home row mod behaviors, left and right and a bunch of combos)
     keymap {
         compatible = "zmk,keymap";
 
