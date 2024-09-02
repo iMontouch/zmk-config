@@ -64,7 +64,7 @@
 
         Escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <13 14>;
+            key-positions = <31 32 33>;
         };
 
         LeftParen {
@@ -89,12 +89,12 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <22 21>;
+            key-positions = <7 9 8>;
         };
 
-        Quotes {
+        DoubleQuotes {
             bindings = <&kp LS(DE_HASH)>;
-            key-positions = <21 22>;
+            key-positions = <33 34>;
         };
 
         Backslash {
@@ -130,6 +130,16 @@
         delete {
             bindings = <&kp DELETE>;
             key-positions = <28 27 26>;
+        };
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <20 19 21>;
+        };
+
+        colon {
+            bindings = <&kp LS(DE_PERIOD)>;
+            key-positions = <22 21>;
         };
     };
 
