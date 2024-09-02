@@ -9,13 +9,14 @@ Hey there! This is the ZMK configuration for my daily driver Corne keyboard layo
 - Uses layers and home row mods for easy access to all functions
 - Inspired by the awesome [Miryoku layout](https://github.com/manna-harbour/miryoku)
 - German-specific keys and characters integrated into the layout
+- Extensive use of combos for enhanced functionality
 
 ## Limitations
 
 Just a heads up - this ZMK implementation doesn't have all the bells and whistles of the original Oryx config. Specifically:
 
-- Mouse emulation isn't supported in ZMK yet
+- Mouse emulation isn't fully supported in ZMK yet, but there's hope on the horizon!
 
-If you're curious about the status of mouse emulation in ZMK, check out the [official docs](https://zmk.dev/docs/keymaps/behaviors/mouse-emulation).
+If you're curious about the status of mouse emulation in ZMK, check out the [official docs](https://zmk.dev/docs/keymaps/behaviors/mouse-emulation). There's a promising PR for mouse move mode that's awaiting merge into the upstream ZMK firmware. You can track its progress [here](https://github.com/zmkfirmware/zmk/pull/2027).
 
-Feel free to poke around, use, or tweak this layout for your own Corne keyboard. Happy typing!
+Feel free to poke around, use, or tweak this layout for your own Corne keyboard. Happy typing! 🚀
