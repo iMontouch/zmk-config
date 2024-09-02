@@ -101,6 +101,16 @@
             bindings = <&kp RA(DE_ESZETT)>;
             key-positions = <19 20 21>;
         };
+
+        right-bracelet {
+            bindings = <&kp RA(DE_N7)>;
+            key-positions = <4 3>;
+        };
+
+        left-bracelet {
+            bindings = <&kp RA(DE_N9)>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
