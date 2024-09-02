@@ -64,17 +64,17 @@
 
         Escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <16 15>;
+            key-positions = <13 14>;
         };
 
         LeftParen {
             bindings = <&kp LS(DE_N8)>;
-            key-positions = <14 15 16>;
+            key-positions = <15 16>;
         };
 
         RightParen {
             bindings = <&kp LS(DE_N9)>;
-            key-positions = <13 14>;
+            key-positions = <19 20>;
         };
 
         LeftBracket {
@@ -89,7 +89,7 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <20 19>;
+            key-positions = <22 21>;
         };
 
         Quotes {
@@ -110,6 +110,26 @@
         left-bracelet {
             bindings = <&kp RA(DE_N9)>;
             key-positions = <7 8>;
+        };
+
+        tilde {
+            bindings = <&kp RA(DE_PLUS)>;
+            key-positions = <25 26>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <25 26>;
+        };
+
+        backsbace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 15 14>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <28 27 26>;
         };
     };
 
