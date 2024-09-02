@@ -68,7 +68,7 @@
         };
 
         LeftParen {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp LS(DE_N8)>;
             key-positions = <14 15 16>;
         };
 
@@ -78,27 +78,27 @@
         };
 
         LeftBracket {
-            bindings = <&kp MINUS>;
+            bindings = <&kp RA(DE_N8)>;
             key-positions = <27 28>;
         };
 
         RightBracket {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp RA(DE_N9)>;
             key-positions = <31 32>;
         };
 
         Tab {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp TAB>;
             key-positions = <20 19>;
         };
 
         Quotes {
-            bindings = <&kp SINGLE_QUOTE>;
+            bindings = <&kp LS(DE_HASH)>;
             key-positions = <21 22>;
         };
 
         Backslash {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp RA(DE_ESZETT)>;
             key-positions = <19 20 21>;
         };
     };
