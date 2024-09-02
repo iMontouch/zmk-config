@@ -99,7 +99,7 @@
 
         Backslash {
             bindings = <&kp RA(DE_ESZETT)>;
-            key-positions = <19 20 21>;
+            key-positions = <8 9>;
         };
 
         right-bracelet {
