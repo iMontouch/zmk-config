@@ -69,22 +69,22 @@
 
         LeftParen {
             bindings = <&kp LS(DE_N8)>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
         };
 
         RightParen {
             bindings = <&kp LS(DE_N9)>;
-            key-positions = <19 20>;
+            key-positions = <19 18>;
         };
 
         LeftBracket {
             bindings = <&kp RA(DE_N8)>;
-            key-positions = <27 28>;
+            key-positions = <28 29>;
         };
 
         RightBracket {
             bindings = <&kp RA(DE_N9)>;
-            key-positions = <31 32>;
+            key-positions = <31 30>;
         };
 
         Tab {
@@ -102,14 +102,14 @@
             key-positions = <8 9>;
         };
 
-        right-bracelet {
+        left-bracelet {
             bindings = <&kp RA(DE_N7)>;
-            key-positions = <4 3>;
+            key-positions = <4 5>;
         };
 
-        left-bracelet {
+        right-bracelet {
             bindings = <&kp RA(DE_N0)>;
-            key-positions = <7 8>;
+            key-positions = <7 6>;
         };
 
         tilde {
@@ -135,11 +135,6 @@
         space {
             bindings = <&kp SPACE>;
             key-positions = <20 19 21>;
-        };
-
-        colon {
-            bindings = <&kp LS(DE_PERIOD)>;
-            key-positions = <22 21>;
         };
     };
 
